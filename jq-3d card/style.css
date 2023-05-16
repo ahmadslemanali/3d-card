@@ -1,0 +1,28 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.card {
+    background: url("card-sticker.png") no-repeat center;
+    width: 280px;
+    height: 160px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    position: relative;
+}
+
+button {
+    position: absolute;
+    bottom: 34px;
+    right: 28px;
+    background-color: rgb(13, 21, 6);
+    width: 34px;
+    height: 34px;
+    color: aliceblue;
+    border: none;
+    border-radius: 50%;
+}
+
